@@ -1,5 +1,6 @@
 var http = require('http');
 var readline = require('readline');
+var colors = require('colors');
 
 var rl = readline.createInterface(process.stdin, process.stdout);
 
@@ -20,7 +21,7 @@ rl.question("Enter Facebook username: ", function(answer) {
     response.on('data', function(chunk) {
       var jsonResponse = JSON.parse(chunk);
       for (var key in jsonResponse) {
-        console.log(key + ": " + jsonResponse[key]);
+        console.log(key.green.bold + ": " + jsonResponse[key]);
       }
     });
   });
