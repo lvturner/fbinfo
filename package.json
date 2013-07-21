@@ -1,0 +1,38 @@
+{
+  "name": "fbinfo",
+  "preferGlobal": true,
+  "version": "0.0.1",
+  "author": "Lee Turner <lvturner@me.com>",
+  "description": "Pulls down publicly available information for a given Facebook profile",
+  "contributors": [ 
+    {
+      "name": "Lee Turner",
+      "email": "lvturner@me.com"
+    } 
+  ],
+  "bin": {
+    "fbinfo": "./bin/fbinfo.js"
+  },
+  "main": "./lib/main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lvx3/fbinfo.git"
+  },
+  "homepage": "https://github.com/lvx3/fbinfo",
+  "keywords": [
+    "cli",
+    "facebook"
+  ],
+  "dependencies" : {
+    "colors"   :  "*"
+  },
+  "analyze": false,
+  "devDependencies": {
+  },
+  "bundledDependencies": [
+  ],  
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
+  }
+}
