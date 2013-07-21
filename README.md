@@ -9,7 +9,7 @@ npm install fbinfo
 # Usage
 If called without any parameters, it will prompt you for username to lookup, otherwise it'll take the first argument as a username and attempt to lookup using that.
 
-## e.g.
+## Example
 ```
 fbinfo zuck
 ```
