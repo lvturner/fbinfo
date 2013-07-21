@@ -11,12 +11,19 @@ If called without any parameters, it will prompt you for username to lookup, oth
     fbinfo zuck
 Will return
    ``` id: 4
+
     name: Mark Zuckerberg
+
     first_name: Mark
+
     last_name: Zuckerberg
+
     link: http://www.facebook.com/zuck
+
     username: zuck
+
     gender: male
+
     locale: en_US```
 
 Likewise the same information could be brought back using
