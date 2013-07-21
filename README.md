@@ -3,7 +3,7 @@ Pulls down publicly available information for a given Facebook profile - useful 
 
 # Installation
 ```
-npm install fbinfo
+$ npm install fbinfo
 ```
 
 # Usage
@@ -11,7 +11,7 @@ If called without any parameters, it will prompt you for username to lookup, oth
 
 ## Example
 ```
-fbinfo zuck
+$ fbinfo zuck
 ```
 
 Will return
@@ -28,7 +28,7 @@ locale: en_US
 
 Likewise the same information could be brought back using
 ```
-fbinfo 4
+$ fbinfo 4
 ```
 Where "4" is the Facebook ID of a user (in this case, Mark Zuckerberg)
 
